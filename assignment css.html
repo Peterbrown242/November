@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>button styles</title>
+      
+      <!-- jQuery -->
+      <script src='cdn/jquery-3.1.1.min.js' type='text/javascript'></script>
+      <script src='cdn/jquery-ui.min.js' type='text/javascript'></script>
+      <link href='cdn/jquery-ui.min.css' rel='stylesheet' type='text/css'>
+      
+     <link rel="stylesheet" href="cdn/external.css" type="text/css">
+      <!--Bootstrap-->
+      <script src="cdn/popper.min.js"></script>
+      <link href='cdn/font-awesome.min.css' rel='stylesheet' type='text/css'>
+      <link rel="stylesheet" href="cdn/bootstrap.min.css">
+       <script src='cdn/bootstrap.bundle.min.js' type='text/javascript'></script> 
+    <link rel="stylesheet" href="cdn/bootstrap1.min.css"> 
+    <script src="cdn/bootstrap.min.js"></script>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;        
+    }
+    body{
+        padding-top: 20px;
+        padding-left: 20px;
+    }
+    button:first-child{
+        padding: 10px 30px;
+        font-size: 1rem;
+        background-color: #e90101;
+        border: none;
+        border-radius: 20px;
+        color: #ffffff;
+        box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+        transition: all 0.5s;
+    }
+    button:first-child:hover{
+        opacity: 0.85s;
+        cursor: pointer;
+    }
+    button:nth-child(2){
+        padding: 8px 30px;
+        background-color: #ffffff;
+        font-size: 1rem;
+        border: 2px solid #0059ff;
+        border-radius: 10px;
+        color: #0059ff;
+        transition: all 0.5s;
+    }
+    button:nth-child(2):hover {
+        border: none;
+        padding: 10px 30px;
+        color: #ffffff;
+        background-color: #0059ff;
+    }
+    input{
+        padding: 10px 20px;
+        font-size: 1rem;
+        color: #333;
+        outline: none;
+        border-radius: 20px 0 0 20px;
+        border: 2px solid #ccc;
+        width: 400px;
+        position: relative;
+    }
+    .btn{
+        padding: 10px 20px;
+        border: 2px solid #ccc;
+        font-size: 1rem;
+        border-radius: 0 20px 20px 0;
+        position: relative;
+        right: 6px;
+        margin-bottom: 5px;
+    }
+    .btn i{
+        color: #545454;
+    }
+</style>
+<body>
+    <button>Subscribe</button>
+    <button>Twitter</button>
+
+    <br>
+    <br>
+     <input type="text" placeholder="Search">
+     <button class="btn"><i class="fa fa-search" aria-hidden="true"></i></button>
+
+
+
+
+     
+
+
+
+
+
+</body>
+</html>
